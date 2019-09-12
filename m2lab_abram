@@ -1,0 +1,23 @@
+// M2LAB
+// Noah Abram
+// 9/12/19
+
+// Greet user by name,
+// then tell them their age
+// on their next birthday
+
+// Declarations
+Declare String name
+Declare Integer age
+
+// Ask for their name
+Display "What is your name?"
+Input (name)
+
+// Ask for their age
+Display "What is your age?"
+Input (age)
+
+// Tell them (by name) how old they will be 
+// on their birthday
+Display "You will be (age+1) on your next birthday!"
