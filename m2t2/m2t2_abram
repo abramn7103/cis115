@@ -1,0 +1,31 @@
+// M2T2
+// Noah Abram
+// 9/1919
+
+// Ask the user for name, hours worked, hourly pay rate
+// Display the gross pay
+
+// Declare variables
+Declare string name
+Declare Real hourlyRate
+Declare Real hoursWorked
+Declare Real grossPay
+
+// Ask user their name
+Display "What's your name?"
+Input name
+
+// Ask for pay rate
+Display "What is your hourly pay rate?"
+Input hourlyRate
+
+// Ask for hours worked
+Display "How many hours have you worked today?"
+Input hoursWorked
+
+// Calculate gross pay
+Set grossPay = hourkyRate * hoursWorked
+
+// Tell the user their gross pay
+Display "Wow, ", name
+Display "You made $," grossPay
